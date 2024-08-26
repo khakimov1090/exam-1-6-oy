@@ -1,0 +1,284 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 31px 168px;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        align-items: center ;
+    }
+    ul li a {
+     text-decoration: none;
+     color: #837D88;
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    }
+    nav button{
+        padding: 15px 15px;
+        background-color: white;
+        border: 3px solid black;
+    }
+    @media(max-width:376px){
+        nav ul{
+            display: none;
+        }
+        nav .logo-3{
+            display: block;
+        }
+        nav button{
+            display: none;
+        }
+        nav{
+         padding: 0;
+         margin: 0;
+         padding-left: 50px;
+         padding-top: 50px;
+        }
+    }
+
+    
+    .hero{
+        background-color: #2D2641;
+        width: 100%;
+        height: 600px;
+    }
+    .hero{
+        display: flex;
+        justify-content: space-between ;
+        
+    }
+    .hero h1 {
+        color: white;
+        font-family: DM Serif Display;
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: -1px;
+        width: 440px;
+    }
+
+    .hero p{
+        color: white;
+        width: 540px ;
+        font-family: Karla;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 30px;
+    }
+    .line{
+        width: 100px;
+        height: 5px;
+        background-color: #F53838;
+    }
+    .logo-2{
+      padding-top: 100px ;
+    }
+    .left{
+        margin-left: 300px;
+        margin-top: 200px;
+    }
+    .text button{
+        padding: 10px 15px;
+        background-color: #2D2641;
+        border: 3px solid #837D88;
+        color: white;
+        margin-top: 30px;
+    }
+    .logo-3{
+        display: none;
+    }
+    @media (max-width:376px){
+        .logo-2{
+            width: 200px;
+        }
+        .herolo{
+            width: 500px;
+        
+        }
+        .hero{
+            width:500px;
+            padding: 0;
+            margin: 0;
+            margin-top: 400px;
+            flex-direction: column-reverse;
+        }
+        .left{
+            padding: 0;
+            margin: 0;
+        }
+        .left h1{
+            font-size: 50px;
+            padding-left: 100px;
+        }
+        .left p{
+            width: 420px;
+            padding-left: 120px;
+
+        }
+        .left .line{
+            display: none;
+        }
+        .left button{
+            margin-bottom: 50px;
+            margin-left: 200px;
+        }
+    }
+    .linee{
+        width: 100px;
+        height: 5px;
+        background-color: #C396C6;
+    }
+    .text-1{
+        font-family: DM Serif Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+    .yirik{
+        font-family: DM Serif Display;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 38.39px;
+        letter-spacing: -0.3888888955116272px;
+        text-align: left;
+    }
+    .mayda{
+        font-family: Karla;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        width: 290px;        
+    }
+    .malumot{
+        display: flex;
+        align-items: center;
+        gap: 200px;
+    }
+    .main{
+        padding-top: 300px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    @media (max-width:376px){
+        .malumot{
+            display: block;
+           
+        }
+        .textss{
+            padding-left: 130px;
+        }
+
+    }
+    .main-1{
+        background-color: #2D2641;
+    }
+    .main-1 .textsss{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 65px 81px;
+    }
+    .main-1 .textsss p {
+        font-family: DM Serif Display;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.7777777910232544px;
+        text-align: left;
+        color: white;
+        width: 240px;
+    }
+    .textsss button{
+        font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding: 15px 15px;
+    background-color: #2D2641;
+    color: white;
+    border: 2px solid white;
+    }
+    @media (max-width:376px){
+   .main-1{
+    display: none;
+   }
+    }
+    .logoes{
+        display: flex;
+        justify-content: space-between;
+        padding-top:50px ;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    @media (max-width:376px){
+        .logoes{
+            display: block;
+            padding-left: 150px;
+        }
+    }
+.malumotnoma{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding-top: 50px;
+}
+.qalin{
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #837D88;
+    padding-top: 20px;
+}
+.ortacha{
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #2D2641;   
+    padding-top: 50px; 
+}
+.kichik{
+    padding-top: 20px;
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #2D2641;
+    padding-bottom: 100px;    
+}
+@media (max-width:376px){
+    .malumotnoma{
+        display: block;
+        padding-left: 150px;
+    }
+}
+
+
+   
